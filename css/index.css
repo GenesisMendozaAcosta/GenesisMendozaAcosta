@@ -153,7 +153,6 @@ h3{
 
 /*Tamaños de pantalla*/
 
-
 @media(max-width: 853px){
     .hoja-curriculum{              
         border-radius: 0;   
@@ -186,7 +185,7 @@ h3{
         display: flex;
         justify-content: center;
     }
-    
+
     .con-conpetencias{
         flex-direction: column;
     }
@@ -216,6 +215,6 @@ h3{
 
     h1{
         font-size: 20px;
-    }
-}
+    }    
 
+}
