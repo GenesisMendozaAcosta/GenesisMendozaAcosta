@@ -145,11 +145,77 @@ h3{
     width: 50%;
 }
 
-
-
-
 #color-titulos{
     color:#0295A8 ;
 }
 
+
+
+/*Tamaños de pantalla*/
+
+
+@media(max-width: 853px){
+    .hoja-curriculum{              
+        border-radius: 0;   
+        margin-top: 0;   
+        margin-bottom: 0;
+        border-left: transparent;
+        border-right: transparent;      
+     }
+}
+
+@media(max-width: 680px){
+    .con-particion{    
+        flex-direction: column;
+    }
+
+    #reducir-margen{
+        margin: 0;
+    }
+        
+    .con-particiondos{
+        flex-direction: column;
+    }
+
+  
+}
+
+@media(max-width: 650px){
+    
+    .con-conpetencias{
+        flex-direction: column;
+    }
+
+    .con-div-competencia{
+        width: 100%;
+    }        
+
+    .section{
+        flex-direction: column;
+    }
+
+    .datos-personales{
+        margin-right: 0;
+    }
+
+    .informacion-personal{
+        width: auto;
+    }
+
+    .parrafo-perfil{
+        padding: 10px;
+    }
+}
+
+@media(max-width: 336px){
+
+    h1{
+        font-size: 20px;
+    }
+    
+    header{
+        display: flex;
+        justify-content: center;
+    }
+}
 
